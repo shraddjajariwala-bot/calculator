@@ -1,0 +1,344 @@
+ #display {
+  font-size: 36px;          /* BIG numbers */
+  font-family: 'Segoe UI', 'Poppins', sans-serif;
+  font-weight: 500;
+
+  color: #222;              /* text color */
+  text-align: right;        /* calculator style */
+
+  padding: 15px 20px;
+  box-sizing: border-box;
+
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+ 
+ .box
+ {
+            width: 25%;
+            border-radius: 17px;
+            /* margin: 20px auto; */
+            padding-bottom: 70px;
+            background-color: rgb(109, 153, 235);
+            border-color: #ffffae;
+            border-width: 5px;
+            border-style: double;
+            box-shadow: 20px;
+            
+
+        }
+
+        .display {
+            width: 90%;
+            background-color: white;
+            opacity: 0.7;
+            border-radius: 4px;
+            border: 1px solid black;
+            margin-left: 15px;
+            margin-top: 20px;
+            padding-bottom: 45px;
+
+        }
+
+        .buttons {
+            opacity: 0.8;
+            border-radius: 7px;
+            background-color: rgb(245, 255, 152);
+            color: rgb(29, 157, 0);
+            font-size: 20px;
+            text-align: center;
+            width: 20%;
+            padding-top: 13px;
+            padding-bottom: 13px;
+            margin-left: 15px;
+            margin-top: 15px;
+            font-weight: bold;
+            
+        }
+
+        .b2 {
+            opacity: 0.8;
+            border-radius: 7px;
+            background-color: rgb(255, 207, 221);
+            color: rgb(47, 144, 255);
+            font-size: 20px;
+            text-align: center;
+            width: 20%;
+            padding-top: 13px;
+            padding-bottom: 13px;
+            margin-left: 105px;
+            margin-top: -50px;
+            font-weight: bolder;
+        }
+
+        .b3 {
+            opacity: 0.8;
+            border-radius: 7px;
+            background-color: rgb(194, 255, 219);
+            color: hotpink;
+            font-size: 20px;
+            text-align: center;
+            width: 20%;
+            padding-top: 12px;
+            padding-bottom: 12px;
+            margin-left: 195px;
+            margin-top: -50px;
+            font-weight: bold;
+        }
+
+        .b4 {
+            opacity: 0.8;
+            border-radius: 7px;
+            background-color: #bce7ff;
+            color: rgb(232, 151, 0);
+            font-size: 20px;
+            text-align: center;
+            width: 20%;
+            padding-top: 13px;
+            padding-bottom: 13px;
+            margin-left: 285px;
+            margin-top: -50px;
+            font-weight: bolder;
+        }
+
+        .b5 {
+            opacity: 0.8;
+            border-radius: 7px;
+           background-color: #bce7ff;
+            color: rgb(232, 151, 0);
+            font-size: 20px;
+            text-align: center;
+            width: 20%;
+            padding-top: 12px;
+            padding-bottom: 12px;
+            margin-left: 15px;
+            margin-top: 10px;
+            font-weight: bold;
+        }
+
+        .b6 {
+            opacity: 0.8;
+            border-radius: 7px;
+            background-color: rgb(194, 255, 219);
+            color: hotpink;
+            font-size: 20px;
+            text-align: center;
+            width: 20%;
+            padding-top: 12px;
+            padding-bottom: 12px;
+            margin-left: 105px;
+            margin-top: -47px;
+            font-weight: bold;
+        }
+
+        .b7 {
+            opacity: 0.8;
+            border-radius: 7px;
+            background-color: rgb(255, 207, 221);
+            color: rgb(47, 144, 255);
+            font-size: 20px;
+            text-align: center;
+            width: 20%;
+            padding-top: 12px;
+            padding-bottom: 12px;
+            margin-left: 195px;
+            margin-top: -47px;
+            font-weight: bold;
+        }
+
+        .b8 {
+            opacity: 0.8;
+            border-radius: 7px;
+            background-color: rgb(245, 255, 152);
+            color: rgb(29, 157, 0);
+            font-size: 20px;
+            text-align: center;
+            width: 20%;
+            padding-top: 12px;
+            padding-bottom: 12px;
+            margin-left: 285px;
+            margin-top: -47px;
+            font-weight: bold;
+        }
+
+        .b9 {
+            opacity: 0.8;
+            border-radius: 7px;
+           background-color: rgb(255, 207, 221);
+            color: rgb(47, 144, 255);
+            font-size: 20px;
+            text-align: center;
+            width: 20%;
+            padding-top: 12px;
+            padding-bottom: 12px;
+            margin-left: 15px;
+            margin-top: 10px;
+            font-weight: bold;
+        }
+
+        .b10 {
+            opacity: 0.8;
+            border-radius: 7px;
+            background-color: rgb(245, 255, 152);
+             color: rgb(29, 157, 0);
+            font-size: 20px;
+            text-align: center;
+            width: 20%;
+            padding-top: 12px;
+            padding-bottom: 12px;
+            margin-left: 105px;
+            margin-top: -47px;
+            font-weight: bold;
+        }
+
+        .b11 {
+            opacity: 0.8;
+            border-radius: 7px;
+           background-color: #bce7ff;
+            color: rgb(232, 151, 0);
+            font-size: 20px;
+            text-align: center;
+            width: 20%;
+            padding-top: 12px;
+            padding-bottom: 12px;
+            margin-left: 195px;
+            margin-top: -47px;
+            font-weight: bold;
+        }
+        .b12{
+             opacity: 0.8;
+            border-radius: 7px;
+            background-color:  rgb(194, 255, 219);
+            color: hotpink;
+            font-size: 20px;
+            text-align: center;
+            width: 20%;
+            padding-top: 12px;
+            padding-bottom: 12px;
+            margin-left: 285px;
+            margin-top: -47px;
+            font-weight: bolder;
+
+        }
+
+       .b13
+       {
+         opacity: 0.8;
+            border-radius: 7px;
+            background-color: rgb(194, 255, 219);
+            color: hotpink;
+            font-size: 20px;
+            text-align: center;
+            width: 20%;
+            padding-top: 12px;
+            padding-bottom: 12px;
+            margin-left: 15px;
+            margin-top: 10px;
+            font-weight: bold;
+       }
+       .b14
+       {
+         opacity: 0.8;
+            border-radius: 7px;
+           background-color: #bce7ff;
+            color: rgb(232, 151, 0);
+            font-size: 20px;
+            text-align: center;
+            width: 20%;
+            padding-top: 12px;
+            padding-bottom: 12px;
+            margin-left: 105px;
+            margin-top: -47px;
+            font-weight: bold;
+       }
+       .b15
+       {
+         opacity: 0.8;
+            border-radius: 7px;
+            background-color: rgb(245, 255, 152);
+           color: rgb(29, 157, 0);
+            font-size: 20px;
+            text-align: center;
+            width: 20%;
+            padding-top: 12px;
+            padding-bottom: 12px;
+            margin-left: 195px;
+            margin-top: -47px;
+            font-weight: bold;
+       }
+       .b16
+       {
+         opacity: 0.8;
+            border-radius: 7px;
+             background-color: rgb(255, 207, 221);
+            color: rgb(47, 144, 255);
+            font-size: 20px;
+            text-align: center;
+            width: 20%;
+            padding-top: 12px;
+            padding-bottom: 12px;
+            margin-left: 285px;
+            margin-top: -47px;
+            font-weight: bold;
+       }
+       .b17
+       {
+         opacity: 0.8;
+            border-radius: 7px;
+            background-color: #bce7ff;
+            color: rgb(232, 151, 0);
+            font-size: 20px;
+            text-align: center;
+            width: 20%;
+            padding-top: 12px;
+            padding-bottom: 12px;
+            margin-left: 15px;
+            margin-top: 10px;
+            font-weight: bold;
+       }
+       .b18
+       {
+         opacity: 0.8;
+            border-radius: 7px;
+            background-color: rgb(255, 207, 221);
+            color: rgb(47, 144, 255);
+            font-size: 20px;
+            text-align: center;
+            width: 20%;
+            padding-top: 12px;
+            padding-bottom: 12px;
+            margin-left: 105px;
+            margin-top: -47px;
+            font-weight: bold;
+       }
+       .b19
+       {
+        opacity: 0.8;
+            border-radius: 7px;
+            background-color:  rgb(194, 255, 219);
+            color: hotpink;
+            font-size: 20px;
+            text-align: center;
+            width: 20%;
+            padding-top: 12px;
+            padding-bottom: 12px;
+            margin-left: 195px;
+            margin-top: -47px;
+            font-weight: bold;
+       }
+       .b20
+       {
+         opacity: 0.8;
+            border-radius: 7px;
+            background-color: rgb(245, 255, 152);
+            color: rgb(29, 157, 0);
+            font-size: 20px;
+            text-align: center;
+            width: 20%;
+            padding-top: 12px;
+            padding-bottom: 12px;
+            margin-left: 285px;
+            margin-top: -47px;
+            font-weight: bold;
+       }
