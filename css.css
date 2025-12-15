@@ -18,7 +18,7 @@
  {
             width: 25%;
             border-radius: 17px;
-            /* margin: 20px auto; */
+            margin: 20px auto;
             padding-bottom: 70px;
             background-color: rgb(109, 153, 235);
             border-color: #ffffae;
@@ -341,4 +341,5 @@
             margin-left: 285px;
             margin-top: -47px;
             font-weight: bold;
+
        }
